@@ -1,0 +1,37 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+
+# IntelliJ related
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code related
+.vscode/
+
+# Misc
+android/.gradle/
+android/app/**/GeneratedPluginRegistrant.java
+*.lock
+*.log
+.DS_Store
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+macos/Flutter/ephemeral/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+web/.dart_tool/
+
+# Firebase/Secret configs
+*.keystore
+*.jks
+*.pem
+
+# Generated plugin registrants
+**/GeneratedPluginRegistrant.*
+

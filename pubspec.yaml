@@ -1,0 +1,77 @@
+name: appointly
+description: "A Flutter doctor appointment booking app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core Flutter
+  cupertino_icons: ^1.0.8
+  
+  # State Management
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.5
+  
+  # Dependency Injection
+  get_it: ^8.0.3
+  
+  # JSON Serialization
+  json_annotation: ^4.9.0
+  
+  # Networking
+  dio: ^5.8.0+1
+  retrofit: ^4.4.2
+  pretty_dio_logger: ^1.4.0
+  
+  # Localization
+  intl: ^0.20.2
+  
+  # UI Components
+  flutter_svg: ^2.2.1
+  flutter_screenutil: ^5.9.3
+  shimmer: ^3.0.0
+  
+  # Storage
+  shared_preferences: ^2.5.3
+  flutter_secure_storage: ^9.2.4
+  
+  # Image Handling
+  image_picker: ^1.0.7
+  image_cropper: ^9.1.0
+  cached_network_image: ^3.4.1
+  
+  # File System
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  
+  # Connectivity
+  connectivity_plus: ^6.0.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+  # Code Generators
+  build_runner: ^2.7.0
+  json_serializable: ^6.11.1
+  retrofit_generator: ^10.0.2
+  
+  # Native Splash Screen
+  flutter_native_splash: ^2.4.1
+  
+  # App Launcher Icons
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/
+     - assets/images/doctors/
+     - assets/images/Specialization/
+     
